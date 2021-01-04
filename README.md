@@ -4,14 +4,6 @@
   <h4>Face Mask Detection system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.</h4>
 </div>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.6+-blue.svg)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/chandrikadeb7/Face-Mask-Detection/issues)
-[![Forks](https://img.shields.io/github/forks/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/network/members)
-[![Stargazers](https://img.shields.io/github/stars/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/stargazers)
-[![Issues](https://img.shields.io/github/issues/chandrikadeb7/Face-Mask-Detection.svg?logo=github)](https://github.com/chandrikadeb7/Face-Mask-Detection/issues)
-[![MIT License](https://img.shields.io/github/license/chandrikadeb7/Face-Mask-Detection.svg?style=flat-square)](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/LICENSE)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/chandrika-deb/)
 
 
 
@@ -39,26 +31,25 @@ Our face mask detector didn't use any morphed masked images dataset. The model i
 This system can therefore be used in real-time applications which require face-mask detection for safety purposes due to the outbreak of Covid-19. This project can be integrated with embedded systems for application in airports, railway stations, offices, schools, and public places to ensure that public safety guidelines are followed.
 
 ## :file_folder: Dataset
-The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/1XDte2DL2Mf_hw4NsmGst7QtYoU7sMBVG?usp=sharing)
+The dataset used can be downloaded here - [Click to Download](https://drive.google.com/drive/folders/1b5YQqlwK0qWzI_1P7Sk7f0Y7bBbReB7y?usp=sharing)
 
-This dataset consists of __3835 images__ belonging to two classes:
-*	__with_mask: 1916 images__
-*	__without_mask: 1919 images__
+This dataset consists of __3800 images__ belonging to two classes:
+*	__with_mask: 1900 images__
+*	__without_mask: 1900 images__
 
 The images used were real images of faces wearing masks. The images were collected from the following sources:
 
-* __Bing Search API__ ([See Python script](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/search.py))
-* __Kaggle datasets__ 
+* __Bing Search API__ ([See Python script](https://github.com/AMAN20174151/Face-Mask-Detector-using-OpenCV-and-Deep-learning/blob/master/scrapper.py))
 * __RMFD dataset__ ([See here](https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset))
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/chandrikadeb7/Face-Mask-Detection/blob/master/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/AMAN20174151/Face-Mask-Detector-using-OpenCV-and-Deep-learning/blob/master/requirements.txt)
 
 ## 🚀&nbsp; Installation
 1. Clone the repo
 ```
-$ git clone https://github.com/chandrikadeb7/Face-Mask-Detection.git
+$ git clone https://github.com/AMAN20174151/Face-Mask-Detector-using-OpenCV-and-Deep-learning.git
 ```
 
 2. Change your directory to the cloned repo and create a Python virtual environment named 'test'
